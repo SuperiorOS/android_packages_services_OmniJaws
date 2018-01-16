@@ -26,6 +26,8 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.location.LocationManager;
 import android.net.Uri;
 import android.os.AsyncTask;
@@ -42,6 +44,7 @@ import android.preference.SwitchPreference;
 import android.provider.Settings;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ListView;
 
 import org.omnirom.omnijaws.client.OmniJawsClient;
 
@@ -84,6 +87,11 @@ public class SettingsActivityService extends PreferenceActivity implements OnPre
 
     private void doLoadPreferences() {
         addPreferencesFromResource(R.xml.settings);
+
+        ListView lv = getListView();
+        lv.setDivider(new ColorDrawable(Color.TRANSPARENT));
+        lv.setDividerHeight(0);
+
         final PreferenceScreen prefScreen = getPreferenceScreen();
         mEnable = (SwitchPreference) findPreference(Config.PREF_KEY_ENABLE);
 
