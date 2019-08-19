@@ -56,7 +56,7 @@ public class SettingsActivityService extends PreferenceActivity implements OnPre
     private static final String DEFAULT_WEATHER_ICON_PACKAGE = "org.omnirom.omnijaws";
 
     private SharedPreferences mPrefs;
-    private ListPreference mProvider;
+    //private ListPreference mProvider;
     private SwitchPreference mCustomLocation;
     private ListPreference mUnits;
     private SwitchPreference mEnable;
@@ -96,14 +96,14 @@ public class SettingsActivityService extends PreferenceActivity implements OnPre
 
         mCustomLocation = (SwitchPreference) findPreference(Config.PREF_KEY_CUSTOM_LOCATION);
 
-        mProvider = (ListPreference) findPreference(Config.PREF_KEY_PROVIDER);
+        /*mProvider = (ListPreference) findPreference(Config.PREF_KEY_PROVIDER);
         mProvider.setOnPreferenceChangeListener(this);
         int idx = mProvider.findIndexOfValue(mPrefs.getString(Config.PREF_KEY_PROVIDER, "0"));
         if (idx == -1) {
             idx = 0;
         }
         mProvider.setValueIndex(idx);
-        mProvider.setSummary(mProvider.getEntries()[idx]);
+        mProvider.setSummary(mProvider.getEntries()[idx]);*/
 
         mUnits = (ListPreference) findPreference(Config.PREF_KEY_UNITS);
         mUnits.setOnPreferenceChangeListener(this);
@@ -208,7 +208,7 @@ public class SettingsActivityService extends PreferenceActivity implements OnPre
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mProvider) {
+        /*if (preference == mProvider) {
             String value = (String) newValue;
             int idx = mProvider.findIndexOfValue(value);
             mProvider.setSummary(mProvider.getEntries()[idx]);
@@ -220,7 +220,7 @@ public class SettingsActivityService extends PreferenceActivity implements OnPre
                 WeatherService.startUpdate(this);
             }
             return true;
-        } else if (preference == mUnits) {
+        } else*/ if (preference == mUnits) {
             String value = (String) newValue;
             int idx = mUnits.findIndexOfValue(value);
             mUnits.setSummary(mUnits.getEntries()[idx]);
