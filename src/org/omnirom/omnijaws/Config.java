@@ -43,10 +43,13 @@ public class Config {
 
         switch (prefs.getString(PREF_KEY_PROVIDER, "0"))
         {
-            case "0":
-                return new OpenWeatherMapProvider(context);
             case "1":
                 return new METNorwayProvider(context);
+            case "2":
+                return new GismeteoProvider(context);
+            case "3":
+                return new AccuWeatherProvider(context);
+            case "0":
             default:
                 return new OpenWeatherMapProvider(context);
         }
@@ -59,10 +62,13 @@ public class Config {
         String provider = prefs.getString(PREF_KEY_PROVIDER, "0");
         switch (provider)
         {
-            case "0":
-                return "OpenWeatherMap";
             case "1":
                 return "MET Norway";
+            case "2":
+                return "Gismeteo";
+            case "3":
+                return "AccuWeather";
+            case "0":
             default:
                 return "OpenWeatherMap";
         }
