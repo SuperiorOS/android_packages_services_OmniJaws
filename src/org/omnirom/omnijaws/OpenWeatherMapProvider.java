@@ -375,10 +375,6 @@ public class OpenWeatherMapProvider extends AbstractWeatherProvider {
     }
 
     private String getAPIKey() {
-        String customKey = Config.getOwmKey(mContext);
-        if (!TextUtils.isEmpty(customKey)) {
-            return customKey;
-        }
         if (mKeys.size() > 0) {
             int key = mRequestNumber % mKeys.size();
             log(TAG, "use API key = " + key);

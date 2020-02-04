@@ -62,12 +62,4 @@
         android:key="weather_icon_pack"
         android:title="@string/weather_icon_pack_title" />
 
-    <EditTextPreference
-        android:title="@string/owm_key"
-        android:dialogTitle="@string/owm_key"
-        android:key="owm_key"
-        android:singleLine="true"
-        android:inputType="textNoSuggestions"
-        android:persistent="true" />
-
 </PreferenceScreen>
