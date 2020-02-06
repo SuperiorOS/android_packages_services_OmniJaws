@@ -63,7 +63,7 @@ public class WeatherService extends Service {
     private static final float LOCATION_ACCURACY_THRESHOLD_METERS = 50000;
     public static final long LOCATION_REQUEST_TIMEOUT = 5L * 60L * 1000L; // request for at most 5 minutes
     private static final long OUTDATED_LOCATION_THRESHOLD_MILLIS = 10L * 60L * 1000L; // 10 minutes
-    private static final long ALARM_INTERVAL_BASE = AlarmManager.INTERVAL_HOUR;
+    private static final long ALARM_INTERVAL_BASE = AlarmManager.INTERVAL_FIFTEEN_MINUTES;
     private static final int RETRY_DELAY_MS = 5000;
     private static final int RETRY_MAX_NUM = 5;
 
