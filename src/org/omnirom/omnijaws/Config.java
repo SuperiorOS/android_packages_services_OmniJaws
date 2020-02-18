@@ -49,6 +49,8 @@ public class Config {
                 return new GismeteoProvider(context);
             case "3":
                 return new AccuWeatherProvider(context);
+            case "4":
+                return new DarkSkyProvider(context);
             case "0":
             default:
                 return new OpenWeatherMapProvider(context);
@@ -68,6 +70,8 @@ public class Config {
                 return "Gismeteo";
             case "3":
                 return "AccuWeather";
+            case "4":
+                return "DarkSky";
             case "0":
             default:
                 return "OpenWeatherMap";
