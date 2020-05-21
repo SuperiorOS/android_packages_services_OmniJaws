@@ -55,4 +55,5 @@
     <string name="show_background_title">Bayangan latar belakang</string>
     <string name="weather_config_title">Setelan layanan</string>
     <string name="with_forecast_title">Dengan perkiraan dan rincian 4-hari</string>
+    <string name="omnijaws_city_unkown">Tak diketahui</string>
 </resources>
