@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2016 The OmniROM Project
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.	See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="provider_title">ارائه دهنده آب و هوا</string>
+    <string name="units_title">واحد</string>
+    <string name="weather_progress_title">تایید مکان</string>
+    <string name="weather_select_location">انتخاب مکان</string>
+    <string name="custom_location_title">مکان سفارشی</string>
+    <string name="weather_custom_location_dialog_title">مکان را وارد کنید</string>
+    <string name="weather_custom_location_title">مکان</string>
+    <string name="weather_custom_location_missing">تنظیم موقعیت سفارشی</string>
+    <string name="weather_retrieve_location_dialog_title">محل را نمی توان بازیابی کرد!</string>
+    <string name="weather_retrieve_location_dialog_message">موقعیت جغرافیایی شبکه غیر فعال است.\n\nیک مکان سفارشی را تنظیم کرده یا موقعیت شبکه را فعال کنید</string>
+    <string name="weather_retrieve_location_dialog_enable_button">فعال کردن</string>
+    <string name="settings_title">تنظیمات</string>
+    <string name="auto_update_title">به‌روز رسانی خودکار</string>
+    <string name="unit_metric">متریک (u00b0C\)</string>
+    <string name="unit_imperial">مایل (\u00b0F)</string>
+    <string name="update">به روز رسانی</string>
+    <string name="enable_title">فعال کردن</string>
+    <string name="update_interval_title">به روز رسانی بازه زمانی</string>
+    <string name="interval_15_minutes">15 minutes</string>
+    <string name="interval_30_minutes">30 minutes</string>
+    <string name="interval_1_hour">۱ ساعت</string>
+    <string name="interval_2_hour">۲ ساعت</string>
+    <string name="interval_4_hour">۴ ساعت</string>
+    <string name="interval_6_hour">۶ ساعت</string>
+    <string name="weather_tile_title">آب و هوا</string>
+    <string name="weather_icon_pack_title">حالت بسته آیکون</string>
+    <string name="weather_icon_pack_playstore">یافتن بسته های آیکون</string>
+    <string name="service_disabled">غیر فعال</string>
+    <string name="service_error">خطا</string>
+    <string name="last_update_time">زمان آخرین به‌روزرسانی</string>
+    <string name="omnijaws_service_unkown">بدون اطلاعات آب و هوا</string>
+    <string name="omnijaws_service_error">خطا در بارگیری اطلاعات آب و هوا</string>
+    <string name="omnijaws_service_init">در حال انتظار...</string>
+    <string name="omnijaws_service_progress">درحال بروزرسانی...</string>
+    <string name="omnijaws_service_disabled">سرویس غیرفعال شده است</string>
+    <string name="weather_widget">آب و هوا</string>
+    <string name="omnijaws_current_text">اکنون</string>
+    <string name="show_background_title">سایه پس زمینه</string>
+    <string name="weather_config_title">تنظیمات سرویس</string>
+    <string name="weather_config_summary"></string>
+    <string name="with_forecast_title">With 4-day forecast and details</string>
+</resources>

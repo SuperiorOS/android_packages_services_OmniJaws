@@ -15,4 +15,46 @@
   You should have received a copy of the GNU General Public License
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="provider_title">Penyedia cuaca</string>
+    <string name="units_title">Satuan</string>
+    <string name="weather_progress_title">Memverifikasi lokasi</string>
+    <string name="weather_select_location">Pilih lokasi</string>
+    <string name="custom_location_title">Sesuaikan Lokasi</string>
+    <string name="weather_custom_location_dialog_title">Masukkan Lokasi</string>
+    <string name="weather_custom_location_title">Lokasi</string>
+    <string name="weather_custom_location_missing">Tentukan lokasi khusus</string>
+    <string name="weather_retrieve_location_dialog_title">Tidak dapat mengambil lokasi!</string>
+    <string name="weather_retrieve_location_dialog_message">Geo-lokasi jaringan dinonaktifkan.\n\nTentukan Lokasi atau Aktifkan lokasi jaringan</string>
+    <string name="weather_retrieve_location_dialog_enable_button">Hidupkan</string>
+    <string name="settings_title">Pengaturan</string>
+    <string name="auto_update_title">Pembaruan otomatis</string>
+    <string name="unit_metric">Metric (\u00b0C)</string>
+    <string name="unit_imperial">Imperial (\u00b0F)</string>
+    <string name="update">Pembaruan</string>
+    <string name="enable_title">Hidupkan</string>
+    <string name="update_interval_title">Interval pembaruan</string>
+    <string name="interval_15_minutes">15 menit</string>
+    <string name="interval_30_minutes">30 menit</string>
+    <string name="interval_1_hour">1 jam</string>
+    <string name="interval_2_hour">2 jam</string>
+    <string name="interval_4_hour">4 jam</string>
+    <string name="interval_6_hour">6 jam</string>
+    <string name="weather_tile_title">Cuaca</string>
+    <string name="weather_icon_pack_title">Paket ikon kondisi</string>
+    <string name="weather_icon_pack_playstore">Pilih paket ikon</string>
+    <string name="service_disabled">Dimatikan</string>
+    <string name="service_error">Kesalahan</string>
+    <string name="last_update_time">Waktu pembaruan terakhir</string>
+    <string name="omnijaws_service_unkown">Tidak ada data cuaca</string>
+    <string name="omnijaws_service_error">Kesalahan memuat data cuaca</string>
+    <string name="omnijaws_service_init">Menunggu...</string>
+    <string name="omnijaws_service_progress">Memperbarui...</string>
+    <string name="omnijaws_service_disabled">Layanan dinonaktifkan</string>
+    <string name="weather_widget">Cuaca</string>
+    <string name="omnijaws_current_text">Sekarang</string>
+    <string name="show_background_title">Bayangan latar belakang</string>
+    <string name="weather_config_title">Setelan layanan</string>
+    <string name="weather_config_summary"></string>
+    <string name="with_forecast_title">Dengan perkiraan dan detail 4-hari</string>
+</resources>

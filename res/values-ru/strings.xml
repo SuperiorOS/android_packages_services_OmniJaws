@@ -15,4 +15,46 @@
   You should have received a copy of the GNU General Public License
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="provider_title">Провайдер погоды</string>
+    <string name="units_title">Единица измерения</string>
+    <string name="weather_progress_title">Проверка местоположения</string>
+    <string name="weather_select_location">Выберите местоположение</string>
+    <string name="custom_location_title">Пользовательское местоположение</string>
+    <string name="weather_custom_location_dialog_title">Введите местоположение</string>
+    <string name="weather_custom_location_title">Местоположение</string>
+    <string name="weather_custom_location_missing">Установить пользовательское местоположение</string>
+    <string name="weather_retrieve_location_dialog_title">Невозможно получить местоположение!</string>
+    <string name="weather_retrieve_location_dialog_message">Определение местоположения по сети выключено.\n\nВключите определение местоположения по сети или введите местоположение вручную</string>
+    <string name="weather_retrieve_location_dialog_enable_button">Включить</string>
+    <string name="settings_title">Настройки</string>
+    <string name="auto_update_title">Автоматические обновления</string>
+    <string name="unit_metric">Метрическая (\u00b0C)</string>
+    <string name="unit_imperial">Английская (\u00b0F)</string>
+    <string name="update">Обновить</string>
+    <string name="enable_title">Включить</string>
+    <string name="update_interval_title">Частота обновления</string>
+    <string name="interval_15_minutes">15 минут</string>
+    <string name="interval_30_minutes">30 минут</string>
+    <string name="interval_1_hour">1 час</string>
+    <string name="interval_2_hour">2 часа</string>
+    <string name="interval_4_hour">4 часа</string>
+    <string name="interval_6_hour">6 часов</string>
+    <string name="weather_tile_title">Погода</string>
+    <string name="weather_icon_pack_title">Набор значков погоды</string>
+    <string name="weather_icon_pack_playstore">Поиск наборов значков</string>
+    <string name="service_disabled">Отключено</string>
+    <string name="service_error">Ошибка</string>
+    <string name="last_update_time">Дата последнего обновления</string>
+    <string name="omnijaws_service_unkown">Нет данных о погоде</string>
+    <string name="omnijaws_service_error">Ошибка при загрузке данных о погоде</string>
+    <string name="omnijaws_service_init">Ожидание...</string>
+    <string name="omnijaws_service_progress">Обновление...</string>
+    <string name="omnijaws_service_disabled">Служба отключена</string>
+    <string name="weather_widget">Погода</string>
+    <string name="omnijaws_current_text">Сейчас</string>
+    <string name="show_background_title">Фоновая тень</string>
+    <string name="weather_config_title">Настройки службы</string>
+    <string name="weather_config_summary"></string>
+    <string name="with_forecast_title">С 4-дневным прогнозом и деталями</string>
+</resources>
