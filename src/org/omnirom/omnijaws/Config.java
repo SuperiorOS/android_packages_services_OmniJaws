@@ -51,6 +51,8 @@ public class Config {
                 return new AccuWeatherProvider(context);
             case "4":
                 return new DarkSkyProvider(context);
+            case "5":
+                return new TheWeatherChannelProvider(context);
             case "0":
             default:
                 return new OpenWeatherMapProvider(context);
@@ -71,7 +73,9 @@ public class Config {
             case "3":
                 return "AccuWeather";
             case "4":
-                return "DarkSky";
+                return "Dark Sky";
+            case "5":
+                return "The Weather Channel";
             case "0":
             default:
                 return "OpenWeatherMap";
