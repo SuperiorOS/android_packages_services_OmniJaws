@@ -38,11 +38,11 @@ public class Config {
     public static final String PREF_KEY_UPDATE_ERROR = "update_error";
 
     public static AbstractWeatherProvider getProvider(Context context) {
-        return new OpenWeatherMapProvider(context);
+        return new TheWeatherChannelProvider(context);
     }
 
     public static String getProviderId(Context context) {
-        return "OpenWeatherMap";
+        return "The Weather Channel";
     }
 
     public static boolean isMetric(Context context) {

@@ -21,6 +21,7 @@
     <string name="provider_title">Weather provider</string>
     <string name="units_title">Unit</string>
     <string name="provider_openweathermap" translatable="false">OpenWeatherMap</string>
+    <string name="provider_twc" translatable="false">The Weather Channel</string>
     <string name="weather_progress_title">Verifying location</string>
     <string name="weather_select_location">Select location</string>
     <string name="custom_location_title">Custom location</string>
@@ -62,4 +63,5 @@
     <string name="omnijaws_service_error_marker" translatable="false">*</string>
     <string name="with_forecast_title">With 4-day forecast and details</string>
     <string name="widget_apply">Apply</string>
+    <string name="omnijaws_city_unknown">Unknown</string>
 </resources>
