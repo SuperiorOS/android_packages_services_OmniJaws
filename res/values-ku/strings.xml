@@ -16,5 +16,44 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="provider_title">دابینگەری کەش</string>
+    <string name="units_title">یه‌که‌</string>
+    <string name="weather_progress_title">سەڵماندنی ناوچە</string>
+    <string name="weather_select_location">دیارکردنی ناوچە</string>
+    <string name="custom_location_title">ناوچەی خۆکرد</string>
+    <string name="weather_custom_location_dialog_title">ناوچە بنووسە</string>
+    <string name="weather_custom_location_title">ناوچە</string>
+    <string name="weather_custom_location_missing">دانانی ناوچەی خۆکرد</string>
+    <string name="weather_retrieve_location_dialog_title">ناتوانرێ ناوچە دەستکەوێت!</string>
+    <string name="weather_retrieve_location_dialog_message">تۆڕی دۆزەرەوەی ناوچە لەکارخراوە. \n\n ناوچەیەکی خۆکرد دابنێ یان تۆڕی ناوچە چالاک بکە</string>
+    <string name="weather_retrieve_location_dialog_enable_button">چالاککردن</string>
+    <string name="settings_title">ڕێکخستنەکان</string>
+    <string name="auto_update_title">نوێکردنەوەی خۆکاری</string>
+    <string name="unit_metric">مەتری (\u00b0C)</string>
+    <string name="unit_imperial">داگیرگەری (\u00b0F)</string>
+    <string name="update">نوێکردنەوە</string>
+    <string name="enable_title">چالاککردن</string>
+    <string name="update_interval_title">مەودای نوێکردنەوە</string>
+    <string name="interval_1_hour">1 کاژمێر</string>
+    <string name="interval_2_hour">2 کاژمێر</string>
+    <string name="interval_4_hour">4 کاژمێر</string>
+    <string name="interval_6_hour">6 کاژمێر</string>
+    <string name="interval_12_hour">12 کاژمێر</string>
+    <string name="weather_tile_title">که‌ش</string>
+    <string name="weather_icon_pack_title">ڕەوشی دەستە ئایکۆن</string>
+    <string name="weather_icon_pack_playstore">دۆزینەوەی دەستە ئایکۆن</string>
+    <string name="service_disabled">لەکارخراو</string>
+    <string name="service_error">هه‌ڵه‌</string>
+    <string name="last_update_time">کاتی کۆتا نوێکردنەوە</string>
+    <string name="omnijaws_service_unkown">زانیاری کەش نییە</string>
+    <string name="omnijaws_service_error">کێشە لە بارکردنی داتای کەش</string>
+    <string name="omnijaws_service_init">چاوەڕێکە...</string>
+    <string name="omnijaws_service_progress">نوێدەکرێتەوە...</string>
+    <string name="omnijaws_service_disabled">خزمەتگوزاری لەکارخرا</string>
+    <string name="weather_widget">که‌ش وهه‌وا</string>
+    <string name="omnijaws_current_text">ئێستا</string>
+    <string name="show_background_title">سێبەری پاشبنەما</string>
+    <string name="weather_config_title">ڕێکخستنی خزمەتگوزاری</string>
+    <string name="with_forecast_title">لەگەڵ 4-ڕۆژ پێشبینی و ووردەکاری</string>
     <string name="omnijaws_city_unkown">نەزانراو</string>
 </resources>
