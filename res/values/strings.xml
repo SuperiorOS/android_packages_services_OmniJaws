@@ -27,7 +27,6 @@
     <string name="provider_accuweather" translatable="false">AccuWeather</string>
     <string name="provider_darksky" translatable="false">Dark Sky</string>
     <string name="provider_twc" translatable="false">The Weather Channel</string>
-    <string name="provider_yandex" translatable="false">Yandex Weather</string>
     <string name="provider_weatherbit" translatable="false">Weatherbit</string>
     <string name="provider_foreca" translatable="false">Foreca</string>
     <string name="provider_msn" translatable="false">MSN Weather</string>

@@ -53,8 +53,6 @@ public class Config {
                 return new DarkSkyProvider(context);
             case "5":
                 return new TheWeatherChannelProvider(context);
-            case "6":
-                return new YandexWeatherProvider(context);
             case "7":
                 return new WeatherbitProvider(context);
             case "8":
@@ -84,8 +82,6 @@ public class Config {
                 return "Dark Sky";
             case "5":
                 return "The Weather Channel";
-            case "6":
-                return "Yandex Weather";
             case "7":
                 return "Weatherbit";
             case "8":
