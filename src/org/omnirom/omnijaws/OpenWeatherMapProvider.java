@@ -500,6 +500,7 @@ public class OpenWeatherMapProvider extends AbstractWeatherProvider {
             } catch (Resources.NotFoundException e) {
             }
         } else {
+            log(TAG, "use custom API key = " + customKey);
             return customKey;
         }
         return null;
