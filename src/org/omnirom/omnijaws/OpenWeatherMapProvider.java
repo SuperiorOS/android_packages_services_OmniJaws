@@ -39,7 +39,7 @@ import android.util.Log;
 public class OpenWeatherMapProvider extends AbstractWeatherProvider {
     private static final String TAG = "OpenWeatherMapProvider";
 
-    private static final int FORECAST_DAYS = 5;
+    private static final int FORECAST_STEPS = 40; // forecast now returns data for every 3 hours. 40 is 5 days
     private static final String SELECTION_LOCATION = "lat=%f&lon=%f";
     private static final String SELECTION_ID = "id=%s";
     private static final String API_KEY_PREFERENCE = "custom_owm_api_key";
@@ -49,7 +49,7 @@ public class OpenWeatherMapProvider extends AbstractWeatherProvider {
     private static final String URL_WEATHER =
             "http://api.openweathermap.org/data/2.5/weather?%s&mode=json&units=%s&lang=%s&appid=%s";
     private static final String URL_FORECAST =
-            "http://api.openweathermap.org/data/2.5/forecast/daily?%s&mode=json&units=%s&lang=%s&cnt=" + FORECAST_DAYS + "&appid=%s";
+            "http://api.openweathermap.org/data/2.5/forecast?%s&mode=json&units=%s&lang=%s&cnt=" + FORECAST_STEPS + "&appid=%s";
 
     private List<String> mKeys = new ArrayList<String>();
     private boolean mHasAPIKey;
@@ -172,22 +172,36 @@ public class OpenWeatherMapProvider extends AbstractWeatherProvider {
     private ArrayList<DayForecast> parseForecasts(JSONArray forecasts, boolean metric) throws JSONException {
         ArrayList<DayForecast> result = new ArrayList<DayForecast>();
         int count = forecasts.length();
-
+        float temp;
         if (count == 0) {
             throw new JSONException("Empty forecasts array");
         }
-        for (int i = 0; i < count; i++) {
+        for (int i = 0; i < count; i+=8) {
             DayForecast item = null;
+            float temp_min = 1000;
+            float temp_max = -1000;
+            String condition = "";
+            int conditionCode = 0;
             try {
-                JSONObject forecast = forecasts.getJSONObject(i);
-                JSONObject conditionData = forecast.getJSONObject("temp");
-                JSONObject data = forecast.getJSONArray("weather").getJSONObject(0);
+                for (int j = i; j < (i + 8); j++) {
+                    JSONObject forecast = forecasts.getJSONObject(j);
+                    JSONObject conditionData = forecast.getJSONObject("main");
+                    JSONObject data = forecast.getJSONArray("weather").getJSONObject(0);
+
+                    temp = sanitizeTemperature(conditionData.getDouble("temp"), metric);
+                    if (temp < temp_min) temp_min = temp;
+                    if (temp > temp_max) temp_max = temp;
+                    if ((j % 3) == 0) {
+                        /* condition */ condition = data.getString("main");
+                        /* conditionCode */ conditionCode = mapConditionIconToCode(
+                                data.getString("icon"), data.getInt("id"), true /* isForecast */);
+                    }
+                }
                 item = new DayForecast(
-                        /* low */ sanitizeTemperature(conditionData.getDouble("min"), metric),
-                        /* high */ sanitizeTemperature(conditionData.getDouble("max"), metric),
-                        /* condition */ data.getString("main"),
-                        /* conditionCode */ mapConditionIconToCode(
-                                data.getString("icon"), data.getInt("id"), true /* isForecast */),
+                        /* low */ temp_min,
+                        /* high */ temp_max,
+                        /* condition */ condition,
+                        /* conditionCode */ conditionCode,
                         "NaN",
                         metric);
             } catch (JSONException e) {
