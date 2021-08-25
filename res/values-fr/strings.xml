@@ -54,4 +54,6 @@
     <string name="omnijaws_current_text">Actuellement</string>
     <string name="show_background_title">Afficher l\'ombre d\'arrière-plan</string>
     <string name="weather_config_title">Paramètres du service</string>
+    <string name="with_forecast_title">Avec les prévisions à 4 jours et les détails</string>
+    <string name="omnijaws_city_unkown">Inconnu</string>
 </resources>
