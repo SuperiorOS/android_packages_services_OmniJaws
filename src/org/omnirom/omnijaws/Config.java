@@ -57,6 +57,8 @@ public class Config {
                 return new YandexWeatherProvider(context);
             case "7":
                 return new WeatherbitProvider(context);
+            case "8":
+                return new ForecaProvider(context);
             case "0":
             default:
                 return new OpenWeatherMapProvider(context);
@@ -84,6 +86,8 @@ public class Config {
                 return "Yandex Weather";
             case "7":
                 return "Weatherbit";
+            case "8":
+                return "Foreca";
             case "0":
             default:
                 return "OpenWeatherMap";
