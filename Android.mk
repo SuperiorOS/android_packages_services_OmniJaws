@@ -22,6 +22,13 @@ LOCAL_PACKAGE_NAME := OmniJaws
 LOCAL_MODULE_TAGS := optional
 LOCAL_SDK_VERSION := system_current
 LOCAL_REQUIRED_MODULES := privapp_whitelist_org.omnirom.omnijaws-ext.xml
+
+LOCAL_STATIC_ANDROID_LIBRARIES := \
+    com.google.android.material_material \
+    SettingsLib
+
+include frameworks/base/packages/SettingsLib/common.mk
+
 include $(BUILD_PACKAGE)
 
 include $(CLEAR_VARS)
