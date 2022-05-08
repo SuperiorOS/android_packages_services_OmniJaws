@@ -104,7 +104,9 @@
                     android:layout_width="@dimen/weather_refresh_icon_size"
                     android:layout_height="@dimen/weather_refresh_icon_size"
                     android:layout_gravity="center_vertical"
-                    android:scaleType="centerInside" />
+                    android:scaleType="centerInside" 
+                    android:tint="@*android:color/system_accent1_100"/>
+
             </LinearLayout>
         </LinearLayout>
 
@@ -135,7 +137,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:paddingBottom="8dp"
-                    android:scaleType="centerInside" />
+                    android:scaleType="centerInside"
+                    android:tint="@*android:color/system_accent1_100" />
 
                 <TextView
                     android:id="@+id/current_temp"
@@ -169,7 +172,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:paddingBottom="8dp"
-                    android:scaleType="centerInside" />
+                    android:scaleType="centerInside"
+                    android:tint="@*android:color/system_accent1_100" />
 
                 <TextView
                     android:id="@+id/forecast_temp_0"
@@ -203,7 +207,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:paddingBottom="8dp"
-                    android:scaleType="centerInside" />
+                    android:scaleType="centerInside"
+                    android:tint="@*android:color/system_accent1_100" />
 
                 <TextView
                     android:id="@+id/forecast_temp_1"
@@ -237,7 +242,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:paddingBottom="8dp"
-                    android:scaleType="centerInside" />
+                    android:scaleType="centerInside"
+                    android:tint="@*android:color/system_accent1_100" />
 
                 <TextView
                     android:id="@+id/forecast_temp_2"
@@ -271,7 +277,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:paddingBottom="8dp"
-                    android:scaleType="centerInside" />
+                    android:scaleType="centerInside"
+                    android:tint="@*android:color/system_accent1_100" />
 
                 <TextView
                     android:id="@+id/forecast_temp_3"
@@ -305,7 +312,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:paddingBottom="8dp"
-                    android:scaleType="centerInside" />
+                    android:scaleType="centerInside"
+                    android:tint="@*android:color/system_accent1_100" />
 
                 <TextView
                     android:id="@+id/forecast_temp_4"

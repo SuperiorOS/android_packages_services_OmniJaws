@@ -2,7 +2,7 @@
     <style name="Weather" parent="@android:style/TextAppearance.DeviceDefault" >
         <item name="android:textSize">16sp</item>
         <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/widget_text_color</item>
+        <item name="android:textColor">@*android:color/system_accent1_100</item>
         <item name="android:shadowColor">@android:color/black</item>
         <item name="android:shadowDx">0</item>
         <item name="android:shadowDy">2</item>

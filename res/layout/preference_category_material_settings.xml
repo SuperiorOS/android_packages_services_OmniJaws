@@ -35,7 +35,7 @@
             android:id="@android:id/icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:tint="?android:attr/textColorPrimary"
+            android:tint="@*android:color/system_accent1_100"
             android:maxWidth="18dp"
             android:maxHeight="18dp"/>
     </LinearLayout>
@@ -51,7 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="@android:style/TextAppearance.Material.Body2"
-            android:textColor="?android:attr/colorAccent"
+            android:textColor="@*android:color/system_accent1_100"
             android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"/>
         <TextView
             android:id="@android:id/summary"
