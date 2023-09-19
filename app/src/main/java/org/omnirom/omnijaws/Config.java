@@ -150,7 +150,7 @@ public class Config {
         SharedPreferences prefs = PreferenceManager
                 .getDefaultSharedPreferences(context);
 
-        String valueString = prefs.getString(PREF_KEY_UPDATE_INTERVAL, "2");
+        String valueString = prefs.getString(PREF_KEY_UPDATE_INTERVAL, "120");
         return Integer.valueOf(valueString);
     }
 

@@ -181,7 +181,7 @@ public class WeatherUpdateService extends JobService {
         cancelUpdatePeriodic(context);
 
         if (DEBUG) Log.d(TAG, "scheduleUpdatePeriodic");
-        final long interval = TimeUnit.HOURS.toMillis(Config.getUpdateInterval(context));
+        final long interval = TimeUnit.MINUTES.toMillis(Config.getUpdateInterval(context));
         final long due = System.currentTimeMillis() + interval;
 
         if (DEBUG) Log.d(TAG, "Scheduling next update at " + new Date(due));
