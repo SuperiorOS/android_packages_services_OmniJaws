@@ -45,8 +45,11 @@
     <string name="service_disabled">Выключено</string>
     <string name="service_error">Ошибка</string>
     <string name="last_update_time">Время последнего обновления</string>
+    <string name="omnijaws_service_waiting">Ожидание \u2026</string>
     <string name="omnijaws_service_unkown">Нет данных погоды</string>
     <string name="omnijaws_service_error">Ошибка загрузки данных о погоде</string>
+    <string name="omnijaws_service_init">Ожидание\u2026</string>
+    <string name="omnijaws_service_progress">Обновление\u2026</string>
     <string name="omnijaws_service_disabled">Служба отключена</string>
     <string name="weather_widget">Погода</string>
     <string name="omnijaws_current_text">Только что</string>
@@ -55,4 +58,18 @@
     <string name="with_forecast_title">С прогнозом на 4 дня и деталями</string>
     <string name="owm_key">Пользовательский ключ OWM</string>
     <string name="omnijaws_city_unkown">Неизвестный</string>
+    <string name="activity_title">Погода</string>
+    <string name="omnijaws_service_error_long">Ошибка загрузки данных о погоде</string>
+    <string name="omnijaws_detail_header">Погода</string>
+    <string name="omnijaws_label_default">Погода</string>
+    <string name="omnijaws_service_last_update">Последнее обновление:</string>
+    <string name="omnijaws_service_error_location">Местоположение недоступно</string>
+    <string name="omnijaws_service_error_network">Сеть не найдена</string>
+    <string name="weather_widget_desc">"Фактическая погода и 4-дневный прогноз"</string>
+    <string name="theme_system">Выбор системы</string>
+    <string name="theme_dark">Темный</string>
+    <string name="theme_light">Светлый</string>
+    <string name="color_theme_title">Тема</string>
+    <string name="location_browse_activity_title">Выбрать местоположение</string>
+    <string name="location_query_hint">Поиск местоположения</string>
 </resources>

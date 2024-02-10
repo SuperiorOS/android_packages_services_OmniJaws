@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2016 The OmniROM Project
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.	See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="provider_title">Hava provayderi</string>
+    <string name="units_title">Vahid</string>
+    <string name="weather_progress_title">Yer doğrulanır</string>
+    <string name="weather_select_location">Yer seçin</string>
+    <string name="custom_location_title">Özəl yer</string>
+    <string name="weather_custom_location_dialog_title">Yeri daxil et</string>
+    <string name="weather_custom_location_title">Yerləşmə</string>
+    <string name="weather_custom_location_missing">Özəl yeri ayarla</string>
+    <string name="weather_retrieve_location_dialog_title">Yer alına bilmir!</string>
+    <string name="weather_retrieve_location_dialog_message">Şəbəkə coğrafi yerləşməsi sıradan çıxarılıb.\n\nÖzəl yerləşməni ayarlayın və ya şəbəkə yerləşməsini fəallaşdırın</string>
+    <string name="weather_retrieve_location_dialog_enable_button">Fəallaşdır</string>
+    <string name="settings_title">Ayarlar</string>
+    <string name="auto_update_title">Avto-güncəlləmə</string>
+    <string name="unit_metric">Metrik (\u00b0c)</string>
+    <string name="unit_imperial">İmperial (\u00b0F)</string>
+    <string name="update">Güncəllə</string>
+    <string name="enable_title">Fəallaşdır</string>
+    <string name="update_interval_title">Güncəlləmə aralığı</string>
+    <string name="interval_1_hour">1 saat</string>
+    <string name="interval_2_hour">2 saat</string>
+    <string name="interval_4_hour">4 saat</string>
+    <string name="interval_6_hour">6 saat</string>
+    <string name="interval_12_hour">12 saat</string>
+    <string name="weather_tile_title">Hava</string>
+    <string name="weather_icon_pack_title">Durum nişan paketi</string>
+    <string name="weather_icon_pack_playstore">Nişan paketi tap</string>
+    <string name="service_disabled">Sıradan çıxarıldı</string>
+    <string name="service_error">Xəta</string>
+    <string name="last_update_time">Son güncəlləmə vaxtı</string>
+    <string name="omnijaws_service_waiting">Gözlənilir \u2026</string>
+    <string name="omnijaws_service_unkown">Hava məlumatı yoxdur</string>
+    <string name="omnijaws_service_error">Hava məlumatını yükləmə xətası</string>
+    <string name="omnijaws_service_init">Gözlənilir\u2026</string>
+    <string name="omnijaws_service_progress">Güncəllənir\u2026</string>
+    <string name="omnijaws_service_disabled">Xidmət sıradan çıxarıldı</string>
+    <string name="weather_widget">Hava</string>
+    <string name="omnijaws_current_text">İndi</string>
+    <string name="show_background_title">Arxaplan kölgəsi</string>
+    <string name="weather_config_title">Xidmət ayarları</string>
+    <string name="with_forecast_title">4 günlük hava və detalları ilə</string>
+    <string name="owm_key">Özəl OWM açarı</string>
+    <string name="omnijaws_city_unkown">Bilinmir</string>
+    <string name="activity_title">Hava</string>
+    <string name="omnijaws_service_error_long">Hava məlumatını yükləmə xətası</string>
+    <string name="omnijaws_detail_header">Hava</string>
+    <string name="omnijaws_label_default">Hava</string>
+    <string name="omnijaws_service_last_update">Son güncəlləmə:</string>
+    <string name="omnijaws_service_error_location">Yer mövcud deyil</string>
+    <string name="omnijaws_service_error_network">Şəbəkə tapılmadı</string>
+    <string name="weather_widget_desc">"Real hava və 4 günlük proqnoz"</string>
+    <string name="theme_system">Sistemi izlə</string>
+    <string name="theme_dark">Qaranlıq</string>
+    <string name="theme_light">İşıqlı</string>
+    <string name="color_theme_title">Tema</string>
+    <string name="location_browse_activity_title">Yer seçin</string>
+    <string name="location_query_hint">Bir yer axtar</string>
+</resources>

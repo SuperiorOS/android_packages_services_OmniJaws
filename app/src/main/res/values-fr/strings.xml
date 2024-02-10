@@ -65,4 +65,11 @@
     <string name="omnijaws_service_last_update">Dernière mise à jour:</string>
     <string name="omnijaws_service_error_location">Aucun localisation disponible</string>
     <string name="omnijaws_service_error_network">Aucun réseau trouvé.</string>
+    <string name="weather_widget_desc">"Météo actuelle et prévisions de 4 jours"</string>
+    <string name="theme_system">Suivre le système</string>
+    <string name="theme_dark">Sombre</string>
+    <string name="theme_light">Clair</string>
+    <string name="color_theme_title">Thème</string>
+    <string name="location_browse_activity_title">Sélectionner le lieu </string>
+    <string name="location_query_hint">Rechercher un emplacement</string>
 </resources>
