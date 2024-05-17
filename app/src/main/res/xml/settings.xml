@@ -38,12 +38,12 @@
         android:dependency="enable"
         android:persistent="false" />
 
-    <ListPreference
+    <!--<ListPreference
         android:key="provider"
         android:title="@string/provider_title"
         android:entries="@array/provider_entries"
         android:entryValues="@array/provider_values"
-        android:dependency="enable" />
+        android:dependency="enable" />-->
 
     <EditTextPreference
         android:key="owm_key"

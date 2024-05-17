@@ -41,32 +41,11 @@ public class Config {
     public static final String PREF_KEY_HISTORY_SIZE = "history_size";
 
     public static AbstractWeatherProvider getProvider(Context context) {
-        SharedPreferences prefs = PreferenceManager
-                .getDefaultSharedPreferences(context);
-
-        switch (prefs.getString(PREF_KEY_PROVIDER, "1")) {
-            case "0":
-                return new OpenWeatherMapProvider(context);
-            case "1":
-                return new METNorwayProvider(context);
-            default:
-                return new OpenWeatherMapProvider(context);
-        }
+        return new OpenWeatherMapProvider(context);
     }
 
     public static String getProviderId(Context context) {
-        SharedPreferences prefs = PreferenceManager
-                .getDefaultSharedPreferences(context);
-
-        String provider = prefs.getString(PREF_KEY_PROVIDER, "1");
-        switch (provider) {
-            case "0":
-                return "OpenWeatherMap";
-            case "1":
-                return "MET Norway";
-            default:
-                return "OpenWeatherMap";
-        }
+        return "OpenWeatherMap";
     }
 
     public static boolean isMetric(Context context) {
