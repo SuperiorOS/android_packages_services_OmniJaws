@@ -228,11 +228,10 @@ public class OpenWeatherMapProvider extends AbstractWeatherProvider {
             case 221:   // ragged thunderstorm
             case 231:   // thunderstorm with drizzle
             case 201:   // thunderstorm with rain
-                return 38;
             case 230:   // thunderstorm with light drizzle
             case 200:   // thunderstorm with light rain
             case 210:   // light thunderstorm
-                return 37;
+                return icon.endsWith("n") ? 47 : 37; // day or night
 
             // Drizzle
             case 300:    // light intensity drizzle
