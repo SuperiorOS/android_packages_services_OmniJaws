@@ -34,11 +34,13 @@
     <string name="update">Güncelle</string>
     <string name="enable_title">Devreye sok</string>
     <string name="update_interval_title">Güncelleme sıklığı</string>
-    <string name="interval_1_hour">1 saat</string>
-    <string name="interval_2_hour">2 saat</string>
-    <string name="interval_4_hour">4 saat</string>
-    <string name="interval_6_hour">6 saat</string>
-    <string name="interval_12_hour">12 saat</string>
+    <string name="interval_15_minutes">15 dk</string>
+    <string name="interval_30_minutes">30 dk</string>
+    <string name="interval_60_minutes">1 saat</string>
+    <string name="interval_120_minutes">2 sâat</string>
+    <string name="interval_240_minutes">4 saat</string>
+    <string name="interval_360_minutes">6 saat</string>
+    <string name="interval_720_minutes">12 saat</string>
     <string name="weather_tile_title">Hava durumu</string>
     <string name="weather_icon_pack_title">Hava durumunun simge paketi</string>
     <string name="weather_icon_pack_playstore">Simge paketlerini bul</string>
@@ -65,4 +67,11 @@
     <string name="omnijaws_service_last_update">Son güncelleme:</string>
     <string name="omnijaws_service_error_location">Kullanılabilir konum yoktur</string>
     <string name="omnijaws_service_error_network">Ağ bulunmadı</string>
+    <string name="weather_widget_desc">"Gerçek hava durumu ve 4 günlük tahmin"</string>
+    <string name="theme_system">Sisteme göre</string>
+    <string name="theme_dark">Koyu</string>
+    <string name="theme_light">Açık</string>
+    <string name="color_theme_title">Tema</string>
+    <string name="location_browse_activity_title">Konum seçin</string>
+    <string name="location_query_hint">Konum ara</string>
 </resources>
